@@ -1,1 +1,6 @@
-/* You can add global styles to this file, and also import other style files */
+html{
+    background-image: url("https://i129.photobucket.com/albums/p225/Loraxis/smokeymountains0045copy.jpg");
+    background-size:     cover;                      
+    background-repeat:   no-repeat;
+    color: white;
+}

@@ -1,0 +1,20 @@
+.container{
+    padding:10%;
+    border-color: silver;
+    border-style: solid;
+    border-width: 2px;
+    background-image: url("https://i129.photobucket.com/albums/p225/Loraxis/smokeymountains0045copy.jpg");
+    background-size:     contain;                      
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+.app{
+    padding:10%;
+    border-color: silver;
+    border-style: solid;
+    border-width: 2px;
+    background-image: url("https://i129.photobucket.com/albums/p225/Loraxis/smokeymountains0045copy.jpg");
+    background-size:     contain;                      
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
