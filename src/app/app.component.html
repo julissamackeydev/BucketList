@@ -1,20 +1,27 @@
-<div class="container">
-  <div class ="row"></div>
-  <div class ="row"></div>
-  <div class ="row"></div>
-  <div class ="row"></div>
-  <div class="app">
-    <div class="row" style="text-align:center">
-      <p class="black-text bold">hello dreams</p>
-    </div>
-    <div class ="row"></div>
-    <div class ="row"></div>
-    <div class ="row"></div>
-    <div class ="row"></div>
-    <div class ="row"></div>
-    <div class ="row"></div>
-    <div class ="row"></div>
+<div class="container yellow-text">
 
-    <router-outlet></router-outlet>
-  </div>
+    <ul id="slide-out" class="sidenav">
+     
+      <li><a class="grey-text" href="#!">scents</a></li>
+      <li><a class="grey-text" href="#!">sights</a></li>
+      <li><a class="grey-text" href="#!">tastes</a></li>
+      <li><a class="grey-text" href="#!">sounds</a></li>
+      <li><div class="divider"></div></li>
+      <li><a class="grey-text" class="subheader">Contact</a></li>
+      <li><a class="grey-text" href="mailto:julissamackeydev@gmail.com?subject=Bucket List"><span>julissamackeydev@gmail.com</span></a></li>
+      <li class="divider"></li>
+      <li><a class="grey-text" routerLink="/about">About this project</a></li>
+
+    </ul>
+    <div class="row">
+        <a data-target="slide-out" class="sidenav-trigger col s1"><i class="material-icons yellow-text">menu</i></a>
+    </div>
+
+    <div class="row" style="text-align:center">
+      <h1><i routerLink="/" class="large material-icons yellow-text">play_circle_outline</i></h1>
+    </div>
+    
+    
+
 </div>
+<router-outlet class="container "></router-outlet>
